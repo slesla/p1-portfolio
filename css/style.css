@@ -1,3 +1,5 @@
+@import url(http://weloveiconfonts.com/api/?family=zocial);
+
 body {
     font-family: 'Lato', sans-serif;
     color: rgb(92, 92, 61);
@@ -41,6 +43,12 @@ a:visited {
     margin-top: 20px;
 }
 
+.center-picture {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .footer-list {
     background-color: rgb(255, 204, 0); /*yellowish*/
 }
@@ -51,7 +59,14 @@ a:visited {
     padding-left: 12px;
 }
 
-/* Small devices (tablets, 768px and up) */
+[class*="zocial-"]:before {
+  display: inline-block;
+  font-family: 'zocial', sans-serif;
+  font-size: 3em;
+  color: rgb(255, 255, 255);
+  width: 100px;
+}
+
 @media (min-width: 768px) {
     .title-super {
         padding-top: 0px;
